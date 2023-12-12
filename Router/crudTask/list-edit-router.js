@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const ProductServices = require('../../services/services')
+const ProductServices = require('../../Services/services');
 const ServicesMiddlewares  = require('../../services/Middlewares')
 const Middlewares = new ServicesMiddlewares();
 const services = new ProductServices()
